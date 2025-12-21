@@ -1,4 +1,5 @@
 import requests
+# pip install requests(cài thư viện nếu chưa có)
 import json
 
 # 1. Cấu hình
