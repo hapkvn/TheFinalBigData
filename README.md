@@ -4,6 +4,21 @@
 
 ---Chú ý: -> Trước khi code hãy ĐẢM BẢO đã lấy code mới nhất trên github, dùng lệnh 'git pull' để lấy code về máy sau đó mới code. -> Branch chính là 'main', đừng nhầm lẫn :>
 
+
+# 1. Dán kết nối api 
+file config.py
+
+class Config:
+  
+    MONGO_URI = "mongodb://root:password@localhost:27017/?authSource=admin"
+    DB_NAME = "traffic_db"
+    
+    # HÃY DÁN KEY TOMTOM CỦA BẠN VÀO ĐÂY
+    TOMTOM_API_KEY = "HÃY DÁN KEY TOMTOM CỦA BẠN VÀO ĐÂY" 
+    
+    SECRET_KEY = "dev_secret_key"
+    DEBUG = True
+
 # 1. Bật Database (Chạy 1 lần duy nhất)
 Mở Terminal (CMD/PowerShell/Ubuntu Terminal) tại thư mục dự án:
 
