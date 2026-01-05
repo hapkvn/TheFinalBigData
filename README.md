@@ -33,6 +33,7 @@ Lệnh này sẽ tự động tải MongoDB về và chạy.
     python -m venv venv
     venv\Scripts\activate
     pip install -r requirements.txt
+  PHẢI BẬT DOCKER DESKTOP TRONG SUỐT QUÁ TRÌNH CHẠY 
 
   Ubuntu/Mac:
   
